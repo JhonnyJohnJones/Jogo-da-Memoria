@@ -105,6 +105,7 @@ public class TelaRankings extends Application{
 		Label nomeFacil = new Label(tudoFacil[1]);
 		nomeFacil.setStyle("-fx-font-family: Arial; -fx-font-size: 16px;");
 		FlowPane painelFacil = new FlowPane(tempoFacil, nomeFacil);
+		painelFacil.setStyle("-fx-background-color: #74b8f2; -fx-background-radius: 20px; -fx-padding: 4px;");
 		painelFacil.setAlignment(Pos.CENTER);
 		FlowPane.setMargin(painelFacil, new Insets(0, 0, 0, 25));
 		painelFacil.setHgap(120);
@@ -116,6 +117,7 @@ public class TelaRankings extends Application{
 		Label nomeNormal = new Label(tudoNormal[1]);
 		nomeNormal.setStyle("-fx-font-family: Arial; -fx-font-size: 16px;");
 		FlowPane painelNormal = new FlowPane(tempoNormal, nomeNormal);
+		painelNormal.setStyle("-fx-background-color: #44b244; -fx-background-radius: 20px; -fx-padding: 4px;");
 		painelNormal.setAlignment(Pos.CENTER);
 		FlowPane.setMargin(painelNormal, new Insets(0, 0, 0, 25));
 		painelNormal.setHgap(120);
@@ -123,10 +125,11 @@ public class TelaRankings extends Application{
 		
 		String[] tudoDificil = rankDificil();
 		Label tempoDificil = new Label(tudoDificil[0]);
-		tempoDificil.setStyle("-fx-font-family: Arial; -fx-font-size: 16px;");
+		tempoDificil.setStyle("-fx-font-family: Arial; -fx-font-size: 16px; -fx-text-fill: #eee;");
 		Label nomeDificil = new Label(tudoDificil[1]);
-		nomeDificil.setStyle("-fx-font-family: Arial; -fx-font-size: 16px;");
+		nomeDificil.setStyle("-fx-font-family: Arial; -fx-font-size: 16px; -fx-text-fill: #eee;");
 		FlowPane painelDificil = new FlowPane(tempoDificil, nomeDificil);
+		painelDificil.setStyle("-fx-background-color: red; -fx-background-radius: 20px; -fx-padding: 4px;");
 		painelDificil.setAlignment(Pos.CENTER);
 		FlowPane.setMargin(painelDificil, new Insets(0, 0, 0, 25));
 		painelDificil.setHgap(120);
