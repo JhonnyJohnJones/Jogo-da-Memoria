@@ -27,8 +27,8 @@ import java.util.Optional;
 public class TelaFim extends Application {
 	
 	boolean gg = true;
-	String nome = "EUA";
-	int tempoAtual = 997;
+	String nome = "JJJ";
+	int tempoAtual = 0;
 	String dificuldade = "facil";
 	boolean tres = false;
 	
